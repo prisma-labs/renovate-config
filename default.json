@@ -9,6 +9,10 @@
   },
   "packageRules": [
     {
+      "groupName": "Prisma",
+      "packagePatterns": ["@prisma"]
+    },
+    {
       "groupName": "renovate-meta",
       "updateTypes": ["lockFileMaintenance", "pin"],
       "labels": ["type/chore"],
